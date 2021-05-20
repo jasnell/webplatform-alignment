@@ -8,7 +8,6 @@ ac.signal.onabort = () => console.log('Aborted!');
 setTimeout(() => ac.abort(), 1000);
 
 
-
 // Integration of AbortController / AbortSignal throughout core APIs
 //
 // * Child Process (exec, execFile, fork, spawn)
